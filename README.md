@@ -1,0 +1,2 @@
+Este projeto é uma API para gerenciar tickets de suporte técnico. A API permite criar, atualizar, listar e filtrar tickets, além de fechar e excluir tickets. 
+O projeto possui foco no desenvolvimento do back-end utilizando Node.js, com rotas para criar, obter, atualizar e excluir tickets. Os dados enviados nas requisições incluem informações sobre equipamento, descrição e nome do usuário, o projeto permite a geração automática de IDs e permite a edição de equipamento e descrição, mantendo o nome do usuário fixo.
