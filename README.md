@@ -6,7 +6,13 @@ Este projeto consiste em uma API para o gerenciamento de tickets de suporte téc
 A API permite que tickets sejam criados, listados, filtrados, atualizados, fechados e excluídos, facilitando o controle de solicitações de suporte relacionadas a equipamentos e problemas técnicos.
 O sistema foi projetado para garantir simplicidade e organização no desenvolvimento de APIs, incluindo geração automática de identificadores e controle de campos editáveis.
 
-🚀 Funcionalidades
+
+📌 Objetivo do Projeto:
+
+Este projeto tem como objetivo praticar e consolidar conhecimentos em desenvolvimento back-end, especialmente na construção de APIs REST utilizando Node.js, aplicando conceitos como rotas, requisições HTTP.
+
+
+🚀 Funcionalidades:
 
 • ✅ Criação de tickets de suporte
 
@@ -28,7 +34,8 @@ O sistema foi projetado para garantir simplicidade e organização no desenvolvi
 • 🗑️ Exclusão de tickets
 
 
-🛠️ Tecnologias Utilizadas
+
+🛠️ Tecnologias Utilizadas:
 
 • Node.js
 
@@ -39,7 +46,8 @@ O sistema foi projetado para garantir simplicidade e organização no desenvolvi
 • JSON para troca de dados
 
 
-📂 Estrutura da API
+
+📂 Estrutura da API:
 
 A API disponibiliza rotas para realizar operações CRUD (Create, Read, Update, Delete) sobre os tickets:
 
@@ -67,11 +75,13 @@ Cada ticket contém as seguintes informações:
 • Status do ticket
 
 
-📥 Exemplo de Dados Enviados (JSON)
+
+📥 Exemplo de Dados Enviados (JSON):
 
 { "usuario": "Nome", "equipamento": "Notebook Dell", "descricao": "Tela não liga" } 
 
-⚠️ Regras de Negócio
+
+⚠️ Regras de Negócio:
 
 • O nome do usuário não pode ser alterado após a criação do ticket
 
@@ -82,6 +92,3 @@ Cada ticket contém as seguintes informações:
 • Tickets podem ser fechados quando o problema for resolvido
 
 
-📌 Objetivo do Projeto
-
-Este projeto tem como objetivo praticar e consolidar conhecimentos em desenvolvimento back-end, especialmente na construção de APIs REST utilizando Node.js, aplicando conceitos como rotas, requisições HTTP.
