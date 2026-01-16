@@ -7,7 +7,7 @@ A API permite que tickets sejam criados, listados, filtrados, atualizados, fecha
 O sistema foi projetado para garantir simplicidade e organização no desenvolvimento de APIs, incluindo geração automática de identificadores e controle de campos editáveis.
 
 
-📌 Objetivo do Projeto:
+🎯 Objetivo do Projeto:
 
 Este projeto tem como objetivo praticar e consolidar conhecimentos em desenvolvimento back-end, especialmente na construção de APIs REST utilizando Node.js, aplicando conceitos como rotas, requisições HTTP.
 
