@@ -4,8 +4,6 @@
 
 Este projeto consiste em uma API para o gerenciamento de tickets de suporte técnico, desenvolvida com foco no back-end utilizando Node.js.
 A API permite que tickets sejam criados, listados, filtrados, atualizados, fechados e excluídos, facilitando o controle de solicitações de suporte relacionadas a equipamentos e problemas técnicos.
-O sistema foi projetado para garantir simplicidade e organização no desenvolvimento de APIs, incluindo geração automática de identificadores e controle de campos editáveis.
-
 
 🎯 Objetivo do Projeto:
 
