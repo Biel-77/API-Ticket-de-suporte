@@ -7,6 +7,7 @@ A API permite que tickets sejam criados, listados, filtrados, atualizados, fecha
 O sistema foi projetado para garantir simplicidade e organização no desenvolvimento de APIs, incluindo geração automática de identificadores e controle de campos editáveis.
 
 🚀 Funcionalidades
+
 • ✅ Criação de tickets de suporte
 • 📋 Listagem de todos os tickets
 • 🔍 Filtragem de tickets por critérios específicos
@@ -18,19 +19,24 @@ O sistema foi projetado para garantir simplicidade e organização no desenvolvi
 • 🗑️ Exclusão de tickets
 
 🛠️ Tecnologias Utilizadas
+
 • Node.js
 • JavaScript
 • Client: Insomnia
 • JSON para troca de dados
 
 📂 Estrutura da API
+
 A API disponibiliza rotas para realizar operações CRUD (Create, Read, Update, Delete) sobre os tickets:
+
 • Criar ticket
 • Obter tickets
 • Atualizar ticket
 • Fechar ticket
 • Excluir ticket
+
 Cada ticket contém as seguintes informações:
+
 • ID (gerado automaticamente)
 • Nome do usuário (imutável após criação)
 • Equipamento
@@ -38,6 +44,7 @@ Cada ticket contém as seguintes informações:
 • Status do ticket
 
 📥 Exemplo de Dados Enviados (JSON)
+
 { "usuario": "Nome", "equipamento": "Notebook Dell", "descricao": "Tela não liga" } 
 
 ⚠️ Regras de Negócio
